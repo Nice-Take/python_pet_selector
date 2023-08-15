@@ -63,4 +63,6 @@ print(f"\nThe best pet for your family is a...")
 time.sleep(.75)
 print(f"\n     -----  [{new_pet.capitalize()}]  -----     \n")
 time.sleep(2)
-print("Thank you and we hope we have helped\nbring clarity to your decision!\n ----- Bye! -----\n")
+print("""Thank you and we hope we have helped
+    bring clarity to your decision!\n 
+      ----- Bye! -----\n""")
