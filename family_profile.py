@@ -15,14 +15,25 @@ class Family:
                  noise_restriction: bool,
                  annual_budget: int,
                  consecutive_days_away: int,
-                 have_yard: bool,
-                 fam_avg_mammal_or_reptile: str,
-                 fam_avg_cuddle_or_spectate: str):
+                 has_yard: bool,
+                 mammal_or_reptile: str,
+                 cuddle_or_spectate: str):
         self.family_size = family_size
         self.dander_allergies = dander_allergies
         self.noise_restriction = noise_restriction
         self.annual_budget = annual_budget
         self.consecutive_days_away = consecutive_days_away
-        self.have_yard = have_yard
-        self.fam_avg_mammal_or_reptile = fam_avg_mammal_or_reptile
-        self.fam_avg_cuddle_or_spectate = fam_avg_cuddle_or_spectate
+        self.has_yard = has_yard
+        self.mammal_or_reptile = mammal_or_reptile
+        self.cuddle_or_spectate = cuddle_or_spectate
+
+    def print_all_attribs(self):
+        print("\n\n ----- [FAMILY SUMMARY] -----\n")
+        print(f"Family Size: {self.family_size}")
+        print(f"Dander Allergy: {self.dander_allergies}")
+        print(f"Noise Regulations: {self.noise_restriction}")
+        print(f"Annual Budget: {self.annual_budget}")
+        print(f"Days Away: {self.consecutive_days_away}")
+        print(f"Has Yard: {self.has_yard}")
+        print(f"Cuddle/Spectate: {self.cuddle_or_spectate}")
+        print(f"Mammal/Reptile: {self.mammal_or_reptile}")
