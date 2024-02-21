@@ -1,4 +1,4 @@
-import typing
+
 
 class Person:
     def __init__(self, preference_weight: int,
