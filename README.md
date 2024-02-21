@@ -1,4 +1,4 @@
-# sophia_python
-The main program is **pet_selector.py**
+# A quick project demonstrating basic proficiency in Python (school)
+The main program is **main.py**
 
-The journal doc as well as troubleshooting screen captures can be found here.
+This programm is essentially abstracting a decision tree for users.
